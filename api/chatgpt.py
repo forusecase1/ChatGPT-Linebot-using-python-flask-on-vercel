@@ -4,7 +4,7 @@ from openai import OpenAI
 client = OpenAI()
 
 client.api_key = os.getenv("OPENAI_API_KEY")
-client.api_base = 'https://api.pawan.krd/v1'
+
 
 class ChatGPT:
     def __init__(self):
